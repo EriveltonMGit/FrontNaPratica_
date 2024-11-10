@@ -1,0 +1,271 @@
+/*COLORS */
+:root {
+  --bk-color: #151619;
+  --red: #c83334;
+  --yellow: #f2ff00;
+  --gold: #daa520;
+  --teal: #13ff00;
+  --cyan: #e0eeee;
+  --primary: #007bff;
+
+  --blue: #00dfc0;
+  --indigo: #5011b6;
+  --purple: #6f42c1;
+  --orange: #fd7e14;
+  --green: #4ade80;
+
+  --white: #ebebeb;
+  --gray: #6c757d31;
+  --gray-dark: #343a40;
+
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+
+  --f-spinner-color-2: rgba(17, 24, 28, 0.8);
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #1f212b;
+  --card: #211d1d;
+}
+/* NAVBAR */
+.nav_bar {
+  width: 100%;
+  height: 12vh;
+  position: fixed;
+  border-bottom: 1px solid rgba(97, 91, 91, 0.431);
+  border-top: 1px solid rgba(97, 91, 91, 0.431);
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+  overflow: hidden;
+}
+/* LOGO */
+.logo {
+  width: 15%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 13vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16vh;
+}
+
+/* UL NAV MENU */
+.ul_nav {
+  width: 85%;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .ul_nav li */
+.ul_nav li {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ul_nav li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  height: 100%;
+  transition: color 0.5s;
+  text-decoration: none;
+  color: var(--white);
+  font-family: "Gotham";
+  letter-spacing: 2px;
+  font-size: 0.9vw;
+}
+
+.ul_nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary);
+  transition: width 0.8s ease, left 0.8s ease;
+}
+.ul_nav a:hover::after {
+  width: 100%;
+  left: 0;
+}
+.ul_nav .bi {
+  transition: 0.8s;
+}
+/* .ul_nav a:hover */
+.ul_nav a:hover .bi {
+  color: var(--primary);
+}
+
+/* btn_login */
+.btn_login {
+  position: relative;
+  padding: 5px 20px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(0, 132, 255),
+    rgb(0, 145, 255),
+    blue
+  );
+  color: white;
+  border: none;
+  font-family: "Sora-VariableFon";
+  font-size: 1vw;
+  font-weight: bold;
+  margin-right: 1vw;
+  cursor: pointer;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 90% 100%, 0% 100%);
+  transition: color 0.5s ease;
+  overflow: hidden;
+
+  &:hover {
+    color: var(--primary);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    transition: width 0.7s ease;
+    z-index: 0;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  span {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* =================== MIDIA SCREEN ============================ */
+@media (min-width:1025px) {
+   /* btn_login */
+ .btn_menu_device {
+  display: none;
+ }
+}
+@media (max-width: 480px) {
+  /* NAVBAR */
+.nav_bar {
+  width: 90%;
+  left: 5%;
+  right: 1%;
+  height: 8.5vh;
+  position: fixed;
+  border: 1px solid var(--bk-dark);
+  margin-top: 1.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+/* LOGO */
+.logo {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  margin-left: 2vw;
+}
+.logo img {
+  width: 45vw;
+  margin-top: 7vh;
+  object-fit: cover;
+ 
+ 
+}
+ /* UL NAV MENU */
+.ul_nav {
+  display: none;
+}
+
+
+
+
+
+
+
+ /* btn_login */
+ .btn_menu_device {
+  position: relative;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  height: 5vh;
+  background: linear-gradient(90deg, #007bff, #007bff, #007bff);
+  color: white;
+  border: none;
+  font-family: 'Sora-VariableFon';
+  font-size: 1vw;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4vw;
+  cursor: pointer;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 90% 100%, 0% 100%);
+  transition: color 0.5s ease;
+  overflow: hidden;
+
+ 
+}
+
+.btn_menu_device:hover {
+  color: var(--orange);
+}
+
+.btn_menu_device::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 100%;
+  background-color: white;
+  transition: width 0.7s ease;
+  z-index: 0;
+}
+
+.btn_menu_device:hover::after {
+  width: 100%;
+}
+
+span {
+  position: relative;
+  z-index: 1;
+  font-size: 8vw;
+}
+
+
+}
