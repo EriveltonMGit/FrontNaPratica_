@@ -1,23 +1,19 @@
 // src/App.jsx
 
+import ParticleScene from "../src/assets/components/Particles/Particles";
 
-
-
-import ParticleScene from '../src/assets/components/Particles/Particles'
-
-// IMPORTS COMPONENTS 
-import Page_1 from './Pages/Page_1'
-import Nav from './Pages/Nav/Nav_bar'
-
-
-
+// IMPORTS COMPONENTS
+import Nav from "./Pages/Nav/Nav_bar";
+import Page_1 from "./Pages/Page_1";
+import Page_2 from "./Pages/Page_2";
 
 export default function App() {
   return (
     <section>
-        < ParticleScene/>
-      < Nav/>
-      < Page_1 />
+      <ParticleScene />
+      <Nav />
+      <Page_1 />
+      <Page_2 />
     </section>
   );
 }
