@@ -1,13 +1,10 @@
 import "./Page.style.css";
 // IMPORT COMPONENTS
 import ThreeDTorus from "../../assets/components/Circle/circle";
-// import  Logo from   '../../assets/components/Logo/Logo_animation'
-// IMPORT IMG 
-
+import TerminalEffect from "../../assets/components/terminal_animado/Terminal_animation";
 
 // BUTTON
-import Button from "../../assets/components/Button/Button";
-
+// import Button from "../../assets/components/Button/Button";
 
 // src/App.jsx
 export default function Page_1() {
@@ -24,7 +21,9 @@ export default function Page_1() {
               sobre tudo, de animações e interatividade a estruturas de layout.
             </p>
             <div className="btn_div">
-              <Button />
+             {/* <Button /> */}
+             <button className="button ">SAIBA MAIS </button>
+
               <span>
                 <a href="">
                   {" "}
@@ -41,9 +40,8 @@ export default function Page_1() {
             </div>
           </div>
           <div className="card_">
-          {/* < Logo/> */}
-      
-         
+            {/* < Logo/> */}
+            <TerminalEffect />
           </div>
         </div>
       </main>

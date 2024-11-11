@@ -6,18 +6,14 @@
 /*COLORS */
 :root {
   --primary: #007bff;
- --bk-color: #151619;
+  --bk-color: #151619;
+  --red: #be0e0e;
 
- 
-  --red: #c83334;
   --yellow: #f2ff00;
   --gold: #daa520;
   --teal: #13ff00;
   --cyan: #e0eeee;
 
-
-
-  
   --blue: #00dfc0;
   --indigo: #5011b6;
   --purple: #6f42c1;
@@ -31,8 +27,8 @@
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
- 
-  --f-spinner-color-2: rgba(17,24,28,.8);
+
+  --f-spinner-color-2: rgba(17, 24, 28, 0.8);
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #1f212b;

@@ -56,8 +56,8 @@ const ThreeDTorus: React.FC = () => {
     canvas.height = 256;
     const context = canvas.getContext('2d')!;
     const gradient = context.createLinearGradient(0, 0, 256, 256);
-    gradient.addColorStop(0, '#0040ff'); // Azul escuro
-    gradient.addColorStop(1, '#010df4'); // Azul claro
+    gradient.addColorStop(0, '#be0e0e'); // Azul escuro
+    gradient.addColorStop(1, '#be0e0e'); // Azul claro
     context.fillStyle = gradient;
     context.fillRect(0, 0, 256, 16);
 
