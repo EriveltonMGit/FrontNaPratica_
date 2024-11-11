@@ -331,23 +331,26 @@
       justify-content: center;
       gap: 5vh;
       flex-direction: column;
-
+      overflow: hidden;
       button {
         width: 80%;
         margin-left: 1vw;
+        overflow: hidden;
       }
       button .bi {
         font-size: 5vw;
+       
       }
     }
     /* .btn_div span */
     .btn_div span {
-      width: 70%;
+      width: 80%;
       height: 10vh;
       display: flex;
       align-items: center;
       justify-content: space-between;
       border-radius: 10px;
+      overflow: hidden;
     }
     /* .btn_div span a */
    
@@ -387,6 +390,7 @@
   .mini_cards .card_:nth-child(2) {
     width: 95%;
     height: 50%;
+    display: none;
   }
 
   /* CARD 2  */
