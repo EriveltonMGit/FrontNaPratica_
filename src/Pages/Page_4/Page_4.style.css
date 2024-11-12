@@ -1,0 +1,325 @@
+:root {
+    --primary: #007bff;
+    --bk-color: #151619;
+    --red: #be0e0e;
+    --yellow: #f2ff00;
+    --gold: #daa520;
+    --teal: #13ff00;
+    --cyan: #e0eeee;
+    --blue: #00dfc0;
+    --indigo: #5011b6;
+    --purple: #6f42c1;
+    --orange: #fd7e14;
+    --green: #4ade80;
+    --white: #ebebeb;
+    --gray: #6c757d31;
+    --gray-dark: #343a40;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --f-spinner-color-2: rgba(17, 24, 28, 0.8);
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #1f212b;
+    --card: #211d1d;
+  }
+  
+  .page_4 {
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .page_4 .card_1 {
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .comp-lx0zvu1f {
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page_4 .card_2 {
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 2.5%;
+  }
+  
+  .page_4 .card_2 h1 {
+    color: var(--bk-color);
+    font-family: Proelium;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page_4 .card_2 p {
+    color: var(--bk-color);
+    font-family: SpaceGrotesk-VariableFont;
+    font-size: 1.3vw;
+  }
+  
+  .page_4 .mini_cards_ {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+   
+  }
+  .page_4 .mini_cards_ .cardp p {
+    color: var(--bk-color);
+    font-family: "Gotham";
+    font-size: 4vw;
+    overflow: hidden;
+    font-size: 1vw;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+  }
+  
+  
+  .page_4 .mini_cards_ .cardp {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .page_4 .mini_cards_ .cardp .icon {
+   
+   font-size: 2vw;
+    color: var(--bk-color);
+   
+  }
+  
+ 
+ 
+ 
+  
+
+
+  .text_scroll{
+
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    font-family: 'Proelium';
+    color: var(--bk-color);
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    
+  }
+
+
+
+
+
+  /* ============================= MIDIA SCREEN ============================ */
+  @media (max-width:480px) {
+   
+    .page_4 {
+      width: 100%;
+      height: 160vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+      padding: 0;
+    }
+
+
+
+
+    
+    .page_4 .card_1 {
+      width: 100%;
+      height: 40%;
+     left: 0;
+      position: absolute;
+      top: 0;
+      margin-top: 25vh;
+      margin-left: -1vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+
+    }
+
+
+
+    
+    .comp-lx0zvu1f {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+
+
+
+
+    
+    .page_4 .card_2 {
+      width: 100%;
+      height: 40%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin-right:-1vw;
+    }
+    
+    .page_4 .card_2 h1 {
+      color: var(--bk-color);
+      font-family: Proelium;
+      font-size: 7vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: -10vh;
+    }
+    
+    .page_4 .card_2 p {
+      color: var(--bk-color);
+      font-family: SpaceGrotesk-VariableFont;
+      font-size: 5vw;
+    }
+    
+    .page_4 .mini_cards_ {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      height: 20%;
+      padding: 0.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      overflow: hidden;
+     
+    }
+    .page_4 .mini_cards_ .cardp p {
+      color: var(--bk-color);
+      font-family: "Gotham";
+      
+      overflow: hidden;
+      font-size: 3vw;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 2vh;
+      overflow: hidden;
+    }
+    
+    
+    .page_4 .mini_cards_ .cardp {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 2vh;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .page_4 .mini_cards_ .cardp .icon {
+      overflow: hidden;
+     font-size: 8vw;
+      color: var(--bk-color);
+     
+    }
+    
+   /*   .text_scroll */
+    .text_scroll{
+  
+      width: 100%;
+      height: 30vh;
+      position: absolute;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 20%;
+      position: absolute;
+      overflow: hidden;
+      top: 0;
+      font-family: 'Proelium';
+      color: var(--bk-color);
+      
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 1rem;
+      font-size: 10vw;
+
+     
+      
+    }
+  
+   
+   
+    
+  
+  
+   
+  }

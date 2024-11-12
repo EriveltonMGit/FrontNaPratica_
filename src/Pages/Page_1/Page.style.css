@@ -217,7 +217,7 @@
 /* CARD 2  */
 .card_2 {
   z-index: 2;
-  width: 30%;
+  width: 40%;
   height: 70%;
   margin-top: 5vh;
   display: flex;
@@ -307,7 +307,6 @@
   }
   .mini_cards .card_:nth-child(1) {
     width: 95%;
-    backdrop-filter: blur(3px);
     border-radius: 10px;
     display: flex;
     align-items: center;

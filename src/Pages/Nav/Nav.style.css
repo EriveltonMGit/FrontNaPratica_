@@ -180,8 +180,8 @@
   /* NAVBAR */
 .nav_bar {
   width: 95%;
-  left: 5%;
-  right: 1%;
+ left: 2.5%;
+  right: 2.5%;
   height: 8vh;
   position: fixed;
   border: 1px solid var(--bk-dark);
@@ -193,6 +193,7 @@
   justify-content: space-between;
   backdrop-filter: blur(10px);
   z-index: 10;
+  
 }
 /* LOGO */
 .logo {
@@ -230,9 +231,9 @@
   border-left: 6px solid #be0e0e; 
   border-right: 6px solid #be0e0e; 
   border-radius: 15px; 
-  padding: 1rem; 
   font-size:1vw; 
-  height: 6vh;
+  height: 5vh;
+  width: 18vw;
   display: flex;
   align-items: center;
   justify-content: center;

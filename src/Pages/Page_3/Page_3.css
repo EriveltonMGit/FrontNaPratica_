@@ -169,7 +169,7 @@
  /* card1 */
  .card1 {
    border: 1px solid var(--gray);
-   width: 100%;
+   width:90%;
    height: 25%;
    display: flex;
    flex-wrap: wrap;
@@ -183,7 +183,7 @@
  /* card1 */
  .card2 {
    border: 1px solid var(--gray);
-   width: 100%;
+   width:90%;
    height: 25%;
    display: flex;
    flex-wrap: wrap;
@@ -197,7 +197,7 @@
  /* card1 */
  .card3 {
    border: 1px solid var(--gray);
-   width: 100%;
+   width:90%;
    height: 25%;
    display: flex;
    flex-wrap: wrap;
@@ -211,7 +211,7 @@
  /* card1 */
  .card4 {
    border: 1px solid var(--gray);
-   width: 100%;
+   width:90%;
    height: 25%;
    display: flex;
    flex-wrap: wrap;
