@@ -10,8 +10,9 @@ import {
   useTransform,
   useVelocity,
 } from "framer-motion";
-
+import '../../Pages/Page_4/Page_4.style.css'
 import { cn } from "../../components/ui/lib/utils";
+import { wrap } from "./lib/utils";  // Importando a função wrap do arquivo utils.ts
 
 interface VelocityScrollProps {
   text: string;
@@ -24,11 +25,6 @@ interface ParallaxProps {
   baseVelocity: number;
   className?: string;
 }
-
-export const wrap = (min: number, max: number, v: number) => {
-  const rangeSize = max - min;
-  return ((((v - min) % rangeSize) + rangeSize) % rangeSize) + min;
-};
 
 export function VelocityScroll({
   text,
@@ -75,7 +71,7 @@ export function VelocityScroll({
     const x = useTransform(baseX, (v) => `${wrap(-100 / repetitions, 0, v)}%`);
 
     const directionFactor = React.useRef<number>(1);
-    useAnimationFrame((t, delta) => {
+    useAnimationFrame((_, delta) => {
       let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
 
       if (velocityFactor.get() < 0) {
