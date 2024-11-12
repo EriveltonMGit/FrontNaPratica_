@@ -145,6 +145,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    text-align: center;
     padding: 1rem;
 
  }
@@ -224,10 +225,11 @@
  
  /* text_card */
  .text_card{
-   overflow: hidden;
+
     width: 100%;
     height: 30%;
     overflow: hidden;
+    text-align: center;
  }
  /* .text_card h1 */
  .text_card h1{
@@ -235,6 +237,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-family: "Proelium";
     font-size: 6vw;
     color: var(--bk-color);
@@ -245,5 +248,6 @@
      font-family: "Gotham";
      font-size: 5vw;
      overflow: hidden;
+     text-align: center;
  }
 }
