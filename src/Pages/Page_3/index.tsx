@@ -17,7 +17,7 @@ export default function Page_3  () {
           {/* CARS 1 */}
           <div
             className=" card1"
-            data-aos="fade-right"
+              data-aos="fade-left"
             data-aos-duration="2000"
           >
             <img src={Img_1 } alt="" />
@@ -32,7 +32,7 @@ export default function Page_3  () {
           {/* CARS 2 */}
           <div
             className="card2"
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-duration="2000"
           >
             <img src={Img_2 } alt="" />
@@ -62,7 +62,7 @@ export default function Page_3  () {
           {/* CARS 4 */}
           <div
             className="card_content card4"
-            data-aos="fade-right"
+             data-aos="fade-right"
             data-aos-duration="2000"
           >
             <img src={Img_4 } alt="" />

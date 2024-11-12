@@ -1025,7 +1025,7 @@ export default function Page_4() {
           colaboração, permitindo que nossos membros construam redes de contato
           valiosas e duradouras.
         </p>
-        <div className="mini_cards_" data-aos="fade-left" data-aos-duration="2500">
+        <div className="mini_cards_" >
 
           <div className="cardp">
             

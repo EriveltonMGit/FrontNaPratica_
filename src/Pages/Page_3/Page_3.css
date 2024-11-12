@@ -170,7 +170,7 @@
  .card1 {
    border: 1px solid var(--gray);
    width:90%;
-   height: 25%;
+   height: 23%;
    display: flex;
    flex-wrap: wrap;
    align-items: center;
@@ -179,12 +179,13 @@
    text-align: center;
    border-radius: 10px;
    overflow: hidden;
+   padding: 0.5rem;
  }
  /* card1 */
  .card2 {
    border: 1px solid var(--gray);
    width:90%;
-   height: 25%;
+   height: 23%;
    display: flex;
    flex-wrap: wrap;
    align-items: center;
@@ -193,12 +194,13 @@
    text-align: center;
    border-radius: 10px;
    overflow: hidden;
+   padding: 0.5rem;
  }
  /* card1 */
  .card3 {
    border: 1px solid var(--gray);
    width:90%;
-   height: 25%;
+   height: 23%;
    display: flex;
    flex-wrap: wrap;
    align-items: center;
@@ -207,12 +209,13 @@
    text-align: center;
    border-radius: 10px;
    overflow: hidden;
+   padding: 0.5rem;
  }
  /* card1 */
  .card4 {
    border: 1px solid var(--gray);
    width:90%;
-   height: 25%;
+   height: 23%;
    display: flex;
    flex-wrap: wrap;
    align-items: center;
@@ -221,6 +224,7 @@
    text-align: center;
    border-radius: 10px;
    overflow: hidden;
+   padding: 0.5rem;
  }
  
  /* text_card */

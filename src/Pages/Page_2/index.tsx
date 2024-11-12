@@ -8,7 +8,8 @@ const Page_2 = () => {
       <h1 className="titulo_page_1">Como Participar: Três Passos Simples</h1>
       <main className="cards_options">
         {/* CARDS PASSOS A SEGUIR */}
-        <div className="card_1" data-aos="fade-up" data-aos-duration="1500">
+        <div className="card_1" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -21,7 +22,7 @@ const Page_2 = () => {
           <p>Defina sua Área</p>
         </div>
         {/* CARD 2 */}
-        <div className="card_2" data-aos="fade-up" data-aos-duration="2500">
+        <div className="card_2" data-aos="fade-up" >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"

@@ -1,6 +1,8 @@
 import "./Page.style.css";
 // IMPORT COMPONENTS
 import ThreeDTorus from "../../assets/components/Circle/circle";
+// IMG 
+import ScrollArrow  from '../../assets/components/Arrow_Scroll/Arrow_scrool'
 
 import { useEffect } from "react";
 import { gsap } from "gsap";
@@ -30,7 +32,7 @@ export default function Page_1() {
 
 
   return (
-    <section className="section_1">
+    <section className="section_1" data-aos="zoom-out" data-aos-duration="2000">
       {/* CARD 1 */}
       <main className="card_1">
         <h1 className="title_ area-especial text_1">Construindo o 
@@ -62,16 +64,15 @@ export default function Page_1() {
               </span>
             </div>
           </div>
-          <div className="card_">
-            {/* < Logo/> */}
-           
-          </div>
+        
         </div>
       </main>
       {/* CARD 2 */}
       <main className="card_2 ">
         <ThreeDTorus />
       </main>
+      {/* ARROW */}
+    <ScrollArrow />
     </section>
   );
 }
