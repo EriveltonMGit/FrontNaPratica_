@@ -1,467 +1,249 @@
-
 /* // AQUI FICA O SCSS DO PAGE 2  */
 .section_3 {
-    width: 100%;
-    height: 130vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-   
-   
-  }
-  
-  .cards-container {
-    display: flex;
-    flex-wrap: wrap;  
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    gap: 2vh;
-    padding: 0;
-    width: 100vw;
-    position: absolute;
-    
-  
-  }
-  
-  .cards_trilha {
-    width: 80vw;
-    height: 55vh;  
-    margin: 1vh 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-   
-  }
-/* //   card_content */
-.card_content{
-    
-    width:45%;
-    height: 95%;
-    border-radius: 5px;
-    display: flex;
-    position: relative;
-  
-    
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
 }
-/* // text_card{ */
+/* .section_3 title */
+.section_3 .title_{
+   width: 100%;
+   height: 30%;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   font-family: 'Proelium';
+   color: var(--bk-color);
+   font-size: 5vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+ margin-top: -5vh;
+}
+
+.cards_trilha {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  gap: 2vh;
+  padding: 0;
+  width: 100%;
+  height: 80%;
+ 
+ 
+}
+
+/* card1 */
+.card1 {
+  border: 1px solid var(--gray);
+  width: 23%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+ 
+}
+/* card1 */
+.card2 {
+   border: 1px solid var(--gray);
+   width: 23%;
+   height: 70%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+   border-radius: 10px;
+}
+/* card1 */
+.card3 {
+   border: 1px solid var(--gray);
+   width: 23%;
+   height: 70%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+   border-radius: 10px;
+}
+/* card1 */
+.card4 {
+   border: 1px solid var(--gray);
+  width: 23%;
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* text_card */
 .text_card{
-    width: 40%;
-    position: absolute;
-    right: 0;
-    height: 100%;
-    padding: 1rem;
-}
-/* // .card_content card 1 */
-.cards_trilha .card1{
-    position: relative;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 5px;
-    overflow: hidden;
-
    
- img{
-  
-     width: 60%;
- }
- h1{
-    color: var(--bk-color);
-    font-family: Proelium;
-    font-size: 1.4vw;
-    text-align: center;
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 2px;
-    
- }
- p{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--bk-color);
-    font-family: SpaceGrotesk-VariableFont;
-    font-size: 1.2vw;
-    width: 100%;
-    padding: 1rem;
- }
-  
+   width: 100%;
+   height: 30%;
+   overflow: hidden;
 }
-
-/* // .card_content card 2 */
-.cards_trilha .card2{
-    position: relative;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 5px;
-    overflow: hidden;
-
-   
- img{
-  
-     width: 60%;
- }
- h1{
-    color: var(--bk-color);
-    font-family: Proelium;
-    font-size: 1.4vw;
-    text-align: center;
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 2px;
-    
- }
- p{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--bk-color);
-    font-family: SpaceGrotesk-VariableFont;
-    font-size: 1.2vw;
-    width: 100%;
-    padding: 1rem;
- }
-  
+/* .text_card h1 */
+.text_card h1{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: "Proelium";
+   font-size: 1.5vw;
+   color: var(--bk-color);
 }
-/* // .card_content card 3 */
-.cards_trilha .card3{
-    position: relative;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 5px;
-    overflow: hidden;
-
-   
- img{
-  
-     width: 60%;
- }
- h1{
-    color: var(--bk-color);
-    font-family: Proelium;
-    font-size: 1.4vw;
-    text-align: center;
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 2px;
-    
- }
- p{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--bk-color);
-    font-family: SpaceGrotesk-VariableFont;
-    font-size: 1.2vw;
-    width: 100%;
-    padding: 1rem;
- }
-  
-}
-
-/* // .card_content card 4 */
-.cards_trilha .card4{
-    position: relative;
-    object-fit: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 5px;
-    overflow: hidden;
-
-   
- img{
-  
-     width: 60%;
- }
- h1{
-    color: var(--bk-color);
-    font-family: Proelium;
-    font-size: 1.4vw;
-    text-align: center;
-    width: 100%;
-    height: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 2px;
-    
- }
- p{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--bk-color);
-    font-family: SpaceGrotesk-VariableFont;
-    font-size: 1.2vw;
-    width: 100%;
-    padding: 1rem;
- }
-  
+.text_card p{
+   color: var(--bk-color);
+    font-family: "Gotham";
+    font-size: 1.3vw;
 }
 
 
 
-
-
-
-
-/* // MIDIA SCREEN 480PX  */
+/* ============================ MIDIA SCREEN =============================== */
 @media (max-width:480px) {
-  /* // AQUI FICA O SCSS DO PAGE 2  */
+   /* // AQUI FICA O SCSS DO PAGE 2  */
 .section_3 {
    width: 100%;
-   height: 180vh;
-   background-color:var(--white);
+   height: auto;
    display: flex;
    align-items: center;
    justify-content: center;
    flex-direction: column;
    overflow: hidden;
    position: relative;
- 
-  
+ }
+ /* .section_3 title */
+ .section_3 .title_{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    font-family: 'Proelium';
+    color: var(--bk-color);
+    font-size: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem;
+
  }
  
- .cards-container {
+ .cards_trilha {
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-around;
    flex-direction: column;
    position: relative;
    gap: 2vh;
+   margin-top: 20vh;
    padding: 0;
-   width: 100vw;
+   width: 100%;
    height: 100%;
+   overflow: hidden;
+  
+  
  }
  
- .section_3  .cards_trilha {
-   width: 90vw;
-   height: 45%;  
-   margin: 1vh 0;
-   display: flex;
-   align-items: center;
-   justify-content:center;
-   flex-direction: column;
-   gap: 3vh;
-
- }
-/* //   card_content */
-.section_3 .card_content{
+ /* card1 */
+ .card1 {
    border: 1px solid var(--gray);
-   width:100%;
-   height: 60%;
-   border-radius: 5px;
+   width: 100%;
+   height: 25%;
    display: flex;
-   position: relative;
-   
-   
-   
-}
-/* // text_card{ */
-.section_3 .text_card{
-   width: 40%;
-   position: absolute;
-   right: 0;
-   height: 100%;
-   padding: 1rem;
-  
-}
-/* // .card_content card 1 */
-.section_3 .cards_trilha .card1{
-   position: relative;
-   object-fit: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   border-radius: 5px;
-   overflow: hidden;
-  
-   
-
-  
-img{
- 
-    width: 60%;
-}
-h1{
-   color: var(--bk-color);
-   font-family: Proelium;
-   font-size: 4vw;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
    text-align: center;
-   width: 100%;
-   height: 30%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   letter-spacing: 2px;
-   
-}
-p{
-   width: 100%;
-   height: 70%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: var(--bk-color);
-   font-family: SpaceGrotesk-VariableFont;
-   font-size: 3.5vw;
-  
-}
- 
-}
-
-/* // .card_content card 2 */
-.cards_trilha .card2{
-   position: relative;
-   object-fit: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   border-radius: 5px;
+   border-radius: 10px;
    overflow: hidden;
-
-  
-img{
+ }
+ /* card1 */
+ .card2 {
+   border: 1px solid var(--gray);
+   width: 100%;
+   height: 25%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+   border-radius: 10px;
+   overflow: hidden;
+ }
+ /* card1 */
+ .card3 {
+   border: 1px solid var(--gray);
+   width: 100%;
+   height: 25%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+   border-radius: 10px;
+   overflow: hidden;
+ }
+ /* card1 */
+ .card4 {
+   border: 1px solid var(--gray);
+   width: 100%;
+   height: 25%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-around;
+   text-align: center;
+   border-radius: 10px;
+   overflow: hidden;
+ }
  
-    width: 60%;
-}
-h1{
+ /* text_card */
+ .text_card{
+   overflow: hidden;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+ }
+ /* .text_card h1 */
+ .text_card h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Proelium";
+    font-size: 6vw;
     color: var(--bk-color);
-   font-family: Proelium;
-   font-size: 4vw;
-   text-align: center;
-   width: 100%;
-   height: 30%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   letter-spacing: 2px;
-   
-}
-p{
-   width: 100%;
-   height: 70%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: var(--bk-color);
-   font-family: SpaceGrotesk-VariableFont;
-   font-size: 3.5vw;
-   width: 100%;
-   padding: 1rem;
-}
- 
-}
-/* // .card_content card 3 */
-.cards_trilha .card3{
-   position: relative;
-   object-fit: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   border-radius: 5px;
-   overflow: hidden;
-
-  
-img{
- 
-    width: 60%;
-}
-h1{
-   color: var(--bk-color);
-   font-family: Proelium;
-   font-size: 4vw;
-   text-align: center;
-   width: 100%;
-   height: 30%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   letter-spacing: 2px;
-   
-}
-p{
-   width: 100%;
-   height: 70%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: var(--bk-color);
-   font-family: SpaceGrotesk-VariableFont;
-   font-size: 3.5vw;
-   width: 100%;
-   padding: 1rem;
-}
- 
-}
-
-/* // .card_content card 4 */
-.cards_trilha .card4{
-   position: relative;
-   object-fit: cover;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   border-radius: 5px;
-   overflow: hidden;
-
-  
-img{
- 
-    width: 60%;
-}
-h1{
-   color: var(--bk-color);
-   font-family: Proelium;
-   font-size: 4vw;
-   text-align: center;
-   width: 100%;
-   height: 30%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   letter-spacing: 2px;
-   
-}
-p{
-   width: 100%;
-   height: 70%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   color: var(--bk-color);
-   font-family: SpaceGrotesk-VariableFont;
-   font-size: 3.5vw;
-   width: 100%;
-   padding: 1rem;
-}
- 
-}
-
+    overflow: hidden;
+ }
+ .text_card p{
+    color: var(--bk-color);
+     font-family: "Gotham";
+     font-size: 5vw;
+     overflow: hidden;
+ }
 }

@@ -191,6 +191,7 @@
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
+  overflow: hidden;
 }
 .section_2 h1 {
   text-align: center;
@@ -217,6 +218,7 @@
   padding: 0;
   gap: 1vh;
   margin-bottom: 0;
+  overflow: hidden;
   
 }
 /* // .cards_options card */
