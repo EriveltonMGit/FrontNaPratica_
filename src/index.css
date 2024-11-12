@@ -20,7 +20,7 @@
   --orange: #fd7e14;
   --green: #4ade80;
 
-  --white: #ebebeb;
+  --white: #ffffff;
   --gray: #6c757d31;
   --gray-dark: #343a40;
 
@@ -60,7 +60,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  background-color: var( --bk-color);
+  background-color: var( --white);
   max-width: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -79,11 +79,11 @@ li {
 
 ::-webkit-scrollbar {
   width: 10px;
-  background-color: #000000;
+  background-color: var(--white);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(90deg, rgb(0, 132, 255), rgb(0, 145, 255), blue);
+  background-image: linear-gradient(90deg,#be0e0e,  #cd5e5e,  #be0e0e);
   border-radius: 6px;
   transition: 05s ease-in-out;
 }

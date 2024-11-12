@@ -4,9 +4,9 @@ import './cursor.css';
 
 const BolinhaSeguindoMouse = () => {
   const [posicao, setPosicao] = useState({ x: 0, y: 0 });
-  const [cursorSize, setCursorSize] = useState(30); // Tamanho inicial da bolinha, 30px por exemplo
+  const [cursorSize, setCursorSize] = useState(20); // Tamanho inicial da bolinha, 30px por exemplo
   const cursorRef = useRef<HTMLDivElement | null>(null); // Referência para a bolinha
-  const [cursorColor] = useState('#05acfa'); // Cor padrão do cursor
+  const [cursorColor] = useState(' #ffffff'); // Cor padrão do cursor
 
   useEffect(() => {
     const moverBolinha = (e: MouseEvent) => {
@@ -33,38 +33,38 @@ const BolinhaSeguindoMouse = () => {
     links.forEach(link => {
       link.addEventListener("mouseover", () => {
         gsap.to('.cursor_', { scale: 2, backgroundColor: '#ffffff', duration: 0.4 });
-        setCursorSize(30); // Reduz o tamanho ao passar sobre o link
+        setCursorSize(20); // Reduz o tamanho ao passar sobre o link
       });
 
       link.addEventListener("mouseleave", () => {
         gsap.to('.cursor_', { scale: 1, backgroundColor: cursorColor, duration: 0.4 });
-        setCursorSize(30); // Retorna ao tamanho original
+        setCursorSize(20); // Retorna ao tamanho original
       });
     });
 
     // Eventos para botões personalizados
     buttonsCustom.forEach(button => {
       button.addEventListener("mouseover", () => {
-        gsap.to('.cursor_', { scale: 2.5, backgroundColor: '#ffffff', duration: 0.4 });
-        setCursorSize(40); // Ajusta o tamanho do cursor ao passar sobre os botões
+        gsap.to('.cursor_', { scale: 2.5, backgroundColor: ' #ffffff', duration: 0.4 });
+        setCursorSize(50); // Ajusta o tamanho do cursor ao passar sobre os botões
       });
 
       button.addEventListener("mouseleave", () => {
         gsap.to('.cursor_', { scale: 1, backgroundColor: cursorColor, duration: 0.4 });
-        setCursorSize(30); // Retorna ao tamanho original
+        setCursorSize(20); // Retorna ao tamanho original
       });
     });
 
     // Eventos para áreas especiais
     areasEspeciais.forEach(area => {
       area.addEventListener("mouseover", () => {
-        gsap.to('.cursor_', { scale: 3, backgroundColor: '#ffffff', duration: 0.4 });
+        gsap.to('.cursor_', { scale: 3, backgroundColor: ' #ffffff', duration: 0.4 });
         setCursorSize(60); // Aumenta ainda mais o tamanho na área especial
       });
 
       area.addEventListener("mouseleave", () => {
         gsap.to('.cursor_', { scale: 1, backgroundColor: cursorColor, duration: 0.4 });
-        setCursorSize(30); // Retorna ao tamanho original
+        setCursorSize(20); // Retorna ao tamanho original
       });
     });
 

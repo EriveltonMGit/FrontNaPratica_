@@ -46,7 +46,7 @@ function TriangularParticles({ count = 100 }: { count?: number }) {
           scale={particle.scale}
         >
           <coneGeometry args={[0.1, 0.2, 3]} /> {/* Triângulo pequeno */}
-          <meshStandardMaterial color="white" />
+          <meshStandardMaterial color="black" />
         </mesh>
       ))}
     </group>
