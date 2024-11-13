@@ -33,8 +33,7 @@
   width: 100%;
   height: 10vh;
   position: fixed;
-  border-bottom: 1px solid rgba(97, 91, 91, 0.431);
-  border-top: 1px solid rgba(97, 91, 91, 0.431);
+  border: 1px solid rgba(97, 91, 91, 0.431);
   margin-top: 2vh;
   display: flex;
   align-items: center;
@@ -55,7 +54,8 @@
 }
 
 .logo img {
-  width: 35vw;
+  margin-top: 12vh;
+  width: 10vw;
   position: absolute;
   display: flex;
   align-items: center;
@@ -202,7 +202,8 @@
  
 }
 .nav_bar .logo img {
-  width: 100vw;
+  width: 35vw;
+margin-bottom: 2vh;
   position: absolute;
   margin-left: -30vw;
 }
@@ -245,7 +246,7 @@
 }
 
 .btn_menu_device:hover {
-  color: var(--orange);
+  color: var(--red);
 }
 
 .btn_menu_device::after {

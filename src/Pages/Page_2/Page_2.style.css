@@ -3,7 +3,7 @@
   --primary: #007bff;
   --bk-color: #151619;
   --red: #be0e0e;
- --danger: #dc3545;
+  --danger: #dc3545;
   --yellow: #f2ff00;
   --gold: #daa520;
   --teal: #13ff00;
@@ -24,318 +24,425 @@
   --info: #17a2b8;
 
   --f-spinner-color-2: rgba(17, 24, 28, 0.8);
- 
+
   --light: #f8f9fa;
   --dark: #1f212b;
   --card: #211d1d;
 }
 
-
 /* section_2 */
-.section_2{
+.section_2 {
   width: 100%;
   height: 110vh;
-  background-color: var(--white);
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
   overflow: hidden;
-}
-.section_2 h1 {
-  text-align: center;
-  width: 100%;
-  height: 20%;
-  color: var(--bk-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Proelium;
-  font-size: 4vw;
-  width: 100%;
+  position: relative;
+
 }
 
-/* // cards_options */
-.section_2 .cards_options {
+.section_2 h1 {
+  width: 100%;
+  height: 15%;
+
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  font-family: "Proelium";
+  color: var(--card);
+  font-size: 4vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+/* conten_1 */
+.conten_1 {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  margin-top: 9%;
+  width: 100%;
+  padding: 1rem;
+  color: var(--bk-color);
+  font-family: "Gotham";
+  font-size: 1.2vw;
+  font-weight: bolder;
+  overflow: hidden;
+}
+/* conten_2 */
+.conten_2 {
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  bottom: 0;
+}
+/* .conten_2 h3 */
+.conten_2 h3 {
+  height: 20%;
+  font-family: "Proelium";
+  color: var(--card);
+  font-size: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+}
+/* .section_2 .cards_  */
+.section_2 .cards_ {
   width: 100%;
   height: 80%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  overflow: hidden;
-  padding: 0;
-  margin-bottom: 0;
-  
 }
-/* // .cards_options card */
-.cards_options .card_1 {
+/* .section_2 .cards_ .card */
+.section_2 .cards_ .card {
   border: 1px solid var(--gray);
   width: 25%;
-  height: 70%;
+  height: 90%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  
+  border-radius: 10px;
 }
-/* // .cards_options h1 */
-.cards_options h1 {
-  color: var(--bk-color);
-  font-family: Proelium;
+/* .section_2 .cards_ .card h1 */
+.section_2 .cards_ .card h1 {
+  height: 70%;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  font-family: "Proelium";
+  color: var(--card);
   font-size: 10vw;
-  height: 30vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
 }
-/* // */
-.cards_options p {
-  color: var(--bk-color);
-  font-family: 'Proelium';
-  letter-spacing: 2.5px;
-}
-/* // .cards_options card */
-.cards_options .card_2 {
-  border: 1px solid var(--gray);
-  width: 25%;
-  height: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  overflow: hidden;
-  position: relative;
-
-}
-/* // .cards_options card */
-.cards_options .card_3 {
-  border: 1px solid var(--gray);
-  width: 25%;
-  height: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  overflow: hidden;
-  position: relative;
-  margin-bottom: -5vh;
-  
-}
-
-/* // desc_card */
-.section_2 .desc_card {
-  width: 92%;
-  height: 20%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-/* // .page_1 .desc_card p  */
-.section_2 .desc_card p{
-    color: var(--bk-color);
-    font-family: 'Gotham';
-    font-size: 1.4vw;
-    
-
-   
-}
-
-/* // ARROW 1  */
-.section_2 .bi{
-    color: var(--gold);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 7vw;
-    
-}
-/* // ARROW 1  */
-.section_2 .card_2 .bi{
-    color: var(--danger);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 7vw;
-} 
-/* // ARROW 1  */
- .section_2 .card_3 .bi{
-    color: var(--teal);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 7vw;
-}
-
-
-
-
-
-
-
-
-
-
-/* // MIDIA SCREEN 480PX */
-@media (max-width:480px) {
- /* section_2 */
-.section_2{
-  width: 100%;
-  height: 220vh;
-  background-color: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  overflow: hidden;
-}
-.section_2 h1 {
-  text-align: center;
+/* .section_2 .cards_ .card p */
+.section_2 .cards_ .card p {
   width: 100%;
   height: 10%;
-  color: var(--bk-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Proelium;
-  font-size: 10vw;
-  width: 100%;
-  
-}
-
-/* // cards_options */
-.section_2 .cards_options {
-  width: 100%;
-  height: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  padding: 0;
-  gap: 1vh;
-  margin-bottom: 0;
-  overflow: hidden;
-  
-}
-/* // .cards_options card */
-.cards_options .card_1 {
-  border: 1px solid var(--gray);
-  width: 95%;
-  height: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  overflow: hidden;
-  position: relative;
-  
-}
-/* // .cards_options h1 */
-.cards_options h1 {
-  color: var(--bk-color);
-  font-family: Proelium;
-  font-size: 35vw;
-  height: 30vh;
-  z-index: 1;
+  position: absolute;
+  top: 0;
+  margin-top: 36vh;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-
-}
-/* // */
-.cards_options p {
+  font-family: "Proelium";
+  font-size: 1.2vw;
   color: var(--bk-color);
-  font-family: 'Proelium';
-  font-size: 5vw;
-  letter-spacing: 2.5px;
-}
-/* // .cards_options card */
-.cards_options .card_2 {
-  border: 1px solid var(--gray);
-  width: 95%;
-  height: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  overflow: hidden;
-  position: relative;
 
 }
-/* // .cards_options card */
-.cards_options .card_3 {
-  border: 1px solid var(--gray);
-  width: 95%;
-  height: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  overflow: hidden;
-  position: relative;
-  margin-top: 5vh;
- 
-}
+/* .section_2 .cards_ .card span */
+.section_2 .cards_ .card span {
+  color: var(--bk-color);
 
-/* // desc_card */
-.section_2 .desc_card {
-  width: 92%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   height: 20%;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  
-}
-/* // .page_1 .desc_card p  */
-.section_2 .desc_card p{
-    color: var(--bk-color);
-    font-family: 'Gotham';
-    font-size: 5vw;
-    
-
+  text-align: center;
+  color: var(--bk-color);
+    font-family: "Gotham";
+    font-size: 1vw;
    
 }
 
 /* // ARROW 1  */
-.section_2 .bi{
-    color: var(--gold);
-    position: absolute;
-    top: 0;
-    margin-top: 5vh;
-    left: 0;
-    width: 50vw;
-    
+.card:nth-child(1) .bi {
+  color: var(--gold);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10vw;
 }
 /* // ARROW 1  */
-.section_2 .card_2 .bi{
-    color: var(--danger);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50vw;
-} 
+.card:nth-child(2)  .bi {
+  color: var(--red);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7vw;
+}
 /* // ARROW 1  */
- .section_2 .card_3 .bi{
-    color: var(--teal);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50vw;
+.card:nth-child(3)  .bi {
+  color: var(--teal);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7vw;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======AQUI FICA A ANIMÇÃO DOS CARDS ======= */
+/* .desc_card  */
+.desc_card {
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--bk-color);
+  gap: 2vw;
+  overflow: hidden;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* Ajuste para rolar metade do conteúdo, então ele volta ao começo */
+  }
+}
+
+.animate-scroll .cards_ {
+  background-image: linear-gradient(90deg, #000000, #000000fd, #000000da);
+}
+.geral_cards {
+  overflow: hidden;
+
+  flex-wrap: wrap;
+}
+.animate-scroll {
+  animation: scrollAnimation linear infinite;
+  overflow: hidden;
+  color: var(--bk-color);
+}
+
+.cards_animados li {
+  overflow: hidden;
+}
+
+/* // ARROW 1  */
+.section_2 .bi {
+  color: var(--gold);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7vw;
+}
+/* // ARROW 1  */
+.section_2 .card_2 .bi {
+  color: var(--danger);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7vw;
+}
+/* // ARROW 1  */
+.section_2 .card_3 .bi {
+  color: var(--teal);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7vw;
+}
+
+/* // MIDIA SCREEN 480PX */
+@media (max-width: 480px) {
+  
+/* section_2 */
+.section_2 {
+  width: 100%;
+  height: 250vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+
+
+}
+
+.section_2 h1 {
+  width: 100%;
+  height: 10%;
+
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  font-family: "Proelium";
+  color: var(--card);
+  font-size: 10vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+/* conten_1 */
+.conten_1 {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  margin-top: 20vh;
+  width: 100%;
+  padding: 1rem;
+  color: var(--bk-color);
+  font-family: "Gotham";
+  font-size: 5vw;
+  font-weight: bolder;
+  overflow: hidden;
+
+}
+/* conten_2 */
+.conten_2 {
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  bottom: 0;
  
 }
+/* .conten_2 h3 */
+.conten_2 h3 {
+  height: 20%;
+  font-family: "Proelium";
+  color: var(--card);
+  font-size: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+}
+/* .section_2 .cards_  */
+.section_2 .cards_ {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+/* .section_2 .cards_ .card */
+.section_2 .cards_ .card {
+  border: 1px solid var(--gray);
+  width: 95%;
+  height: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+/* .section_2 .cards_ .card h1 */
+.section_2 .cards_ .card h1 {
+  height: 65%;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  font-family: "Proelium";
+  color: var(--card);
+  font-size: 30vw;
+
+}
+/* .section_2 .cards_ .card p */
+.section_2 .cards_ .card p {
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  top: 0;
+  margin-top: 29vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Proelium";
+  font-size: 5vw;
+  color: var(--bk-color);
 
 
+}
+/* .section_2 .cards_ .card span */
+.section_2 .cards_ .card span {
+  color: var(--bk-color);
 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--bk-color);
+    font-family: "Gotham";
+    font-size: 5vw;
+   
+}
 
+/* // ARROW 1  */
+.card:nth-child(1) .bi {
+  color: var(--gold);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60vw;
+}
+/* // ARROW 1  */
+.card:nth-child(2)  .bi {
+  color: var(--red);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60vw;
+}
+/* // ARROW 1  */
+.card:nth-child(3)  .bi {
+  color: var(--teal);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60vw;
+}
 
-
+}

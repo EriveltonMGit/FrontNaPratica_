@@ -11,7 +11,7 @@ import Img_4 from '../../assets/img/page_2/img_4.webp'
 export default function Page_3  () {
   return (
     <section className="section_3">
-      <h1 className="title_">Desenvolva-se com a Comunidade</h1>
+      <h1 className="title_">Transformamos a sua ideia em um produto real.</h1>
      
         <main className="cards_trilha">
           {/* CARS 1 */}
